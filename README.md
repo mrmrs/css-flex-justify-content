@@ -26,7 +26,7 @@ or download the css on github and include in your project.
 .jc-sa {  justify-content: space-around; }
 .jc-i {   justify-content: inherit; }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .jc-fs-ns {  justify-content: flex-start; }
   .jc-f3-ns {  justify-content: flex-end; }
   .jc-c-ns {   justify-content: center; }
@@ -35,7 +35,7 @@ or download the css on github and include in your project.
   .jc-i-ns {   justify-content: inherit; }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .jc-fs-m {  justify-content: flex-start; }
   .jc-f3-m {  justify-content: flex-end; }
   .jc-c-m {   justify-content: center; }
@@ -44,7 +44,7 @@ or download the css on github and include in your project.
   .jc-i-m {   justify-content: inherit; }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .jc-fs-l {  justify-content: flex-start; }
   .jc-f3-l {  justify-content: flex-end; }
   .jc-c-l {   justify-content: center; }
