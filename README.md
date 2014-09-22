@@ -20,7 +20,8 @@ View on [npm](https://www.npmjs.org/package/css-flex-justify-content)
 ## File Size
 
 1.2K flex-justify-content.css
-968B flex-justify-content.min.css
+968B flex-justify-content.min.css 
+227B minified and gzipped
 
 ## The Code
 ```
