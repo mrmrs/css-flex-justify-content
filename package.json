@@ -1,5 +1,6 @@
 {
   "name": "css-flex-justify-content",
+  "style": "flex-justify-content.css",
   "version": "0.0.5",
   "homepage": "http://github.com/mrmrs/css-flex-justify-content",
   "description": "Css module of single purpose classes for flex justify content",
