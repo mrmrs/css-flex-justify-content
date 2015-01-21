@@ -20,7 +20,7 @@ View on [npm](https://www.npmjs.org/package/css-flex-justify-content)
 ## File Size
 
 1.2K flex-justify-content.css
-968B flex-justify-content.min.css 
+968B flex-justify-content.min.css
 227B minified and gzipped
 
 ## The Code
@@ -70,7 +70,7 @@ View on [npm](https://www.npmjs.org/package/css-flex-justify-content)
 
 The MIT License (MIT)
 
-Copyright (c) 2014 @mrmrs
+Copyright (c) 2015 @mrmrs
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
