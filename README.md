@@ -1,10 +1,10 @@
-# css-flex-justify-content 0.0.7
+# css-flex-justify-content 1.0.6
 
 Css module of single purpose classes for flex justify content
 
 #### Stats
 
-273 | 24 | 24
+343 | 24 | 68
 ---|---|---
 bytes | selectors | declarations
 
@@ -16,15 +16,25 @@ bytes | selectors | declarations
 npm install --save-dev css-flex-justify-content
 ```
 
+Learn more about using css installed with npm:
+* https://webpack.github.io/docs/stylesheets.html
+* https://github.com/defunctzombie/npm-css
+
 #### With Git
 
+http:
 ```
 git clone https://github.com/tachyons-css/css-flex-justify-content
 ```
 
+ssh:
+```
+git clone git@github.com:tachyons-css/css-flex-justify-content.git
+```
+
 ## Usage
 
-#### Using with [PostCSS](https://github.com/postcss/postcss)
+#### Using with [Postcss](https://github.com/postcss/postcss)
 
 Import the css module
 
@@ -32,16 +42,24 @@ Import the css module
 @import "css-flex-justify-content";
 ```
 
-Then process the CSS using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
+Then process the css using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
 
 ```sh
 $ npm i -g tachyons-cli
-$ tachyons-cli path/to/css-file.css > dist/t.css
+$ tachyons path/to/css-file.css > dist/t.css
 ```
 
-#### Using the CSS
+#### Using the css
 
-The built CSS is located in the `css` directory. It contains an unminified and minified version.
+##### CDN
+The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
+
+```
+<link rel="stylesheet" href="http://unpkg.com/css-flex-justify-content@1.0.6/css/css-flex-justify-content.min.css" />
+```
+
+##### Locally
+The built css is located in the `css` directory. It contains an unminified and minified version.
 You can either cut and paste that css or link to it directly in your html.
 
 ```html
@@ -50,44 +68,44 @@ You can either cut and paste that css or link to it directly in your html.
 
 #### Development
 
-The source CSS files can be found in the `src` directory.
-Running `$ npm start` will process the source CSS and place the built CSS in the `css` directory.
+The source css files can be found in the `src` directory.
+Running `$ npm start` will process the source css and place the built css in the `css` directory.
 
-## The CSS
+## The css
 
 ```css
 /*
    FLEX JUSTIFY CONTENT
 */
-.jc-fs { justify-content: flex-start; }
-.jc-f3 { justify-content: flex-end; }
-.jc-c { justify-content: center; }
-.jc-sb { justify-content: space-between; }
-.jc-sa { justify-content: space-around; }
-.jc-i { justify-content: inherit; }
+.jc-fs { -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; }
+.jc-f3 { -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; }
+.jc-c { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+.jc-sb { -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+.jc-sa { -ms-flex-pack: distribute; justify-content: space-around; }
+.jc-i { -webkit-box-pack: inherit; -ms-flex-pack: inherit; justify-content: inherit; }
 @media screen and (min-width: 48em) {
- .jc-fs-ns { justify-content: flex-start; }
- .jc-f3-ns { justify-content: flex-end; }
- .jc-c-ns { justify-content: center; }
- .jc-sb-ns { justify-content: space-between; }
- .jc-sa-ns { justify-content: space-around; }
- .jc-i-ns { justify-content: inherit; }
+ .jc-fs-ns { -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; }
+ .jc-f3-ns { -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; }
+ .jc-c-ns { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+ .jc-sb-ns { -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+ .jc-sa-ns { -ms-flex-pack: distribute; justify-content: space-around; }
+ .jc-i-ns { -webkit-box-pack: inherit; -ms-flex-pack: inherit; justify-content: inherit; }
 }
 @media screen and (min-width:48em) and (max-width: 64em) {
- .jc-fs-m { justify-content: flex-start; }
- .jc-f3-m { justify-content: flex-end; }
- .jc-c-m { justify-content: center; }
- .jc-sb-m { justify-content: space-between; }
- .jc-sa-m { justify-content: space-around; }
- .jc-i-m { justify-content: inherit; }
+ .jc-fs-m { -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; }
+ .jc-f3-m { -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; }
+ .jc-c-m { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+ .jc-sb-m { -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+ .jc-sa-m { -ms-flex-pack: distribute; justify-content: space-around; }
+ .jc-i-m { -webkit-box-pack: inherit; -ms-flex-pack: inherit; justify-content: inherit; }
 }
 @media screen and (min-width: 64em) {
- .jc-fs-l { justify-content: flex-start; }
- .jc-f3-l { justify-content: flex-end; }
- .jc-c-l { justify-content: center; }
- .jc-sb-l { justify-content: space-between; }
- .jc-sa-l { justify-content: space-around; }
- .jc-i-l { justify-content: inherit; }
+ .jc-fs-l { -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; }
+ .jc-f3-l { -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; }
+ .jc-c-l { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+ .jc-sb-l { -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+ .jc-sa-l { -ms-flex-pack: distribute; justify-content: space-around; }
+ .jc-i-l { -webkit-box-pack: inherit; -ms-flex-pack: inherit; justify-content: inherit; }
 }
 ```
 
@@ -107,3 +125,4 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 ## License
 
 ISC
+
