@@ -1,38 +1,44 @@
 {
   "name": "css-flex-justify-content",
-  "style": "flex-justify-content.css",
-  "version": "1.0.8",
-  "homepage": "http://github.com/mrmrs/css-flex-justify-content",
-  "description": "Css module of single purpose classes for flex justify content",
+  "version": "2.0.0",
+  "description": "Functional CSS for flex-justify-content",
+  "style": "dist/flex-justify-content.css",
+  "main": "dist/flex-justify-content.css",
+  "exports": {
+    ".": "./dist/flex-justify-content.css",
+    "./dist/*": "./dist/*",
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
   "keywords": [
     "css",
-    "oocss",
-    "flex-justify-content"
+    "flex-justify-content",
+    "utility",
+    "single-purpose",
+    "functional-css"
   ],
-  "css-flex-justify-content": {
+  "homepage": "https://github.com/mrmrs/css-flex-justify-content",
+  "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/css-flex-justify-content.git"
+    "url": "https://github.com/mrmrs/css-flex-justify-content.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/css-flex-justify-content/issues",
-    "email": "hi@mrmrs.cc"
+    "url": "https://github.com/mrmrs/css-flex-justify-content/issues"
   },
   "author": {
     "name": "Adam Morse",
     "email": "hi@mrmrs.cc",
     "url": "http://mrmrs.cc"
   },
-  "contributors": [
-    {
-      "name": "Adam Morse",
-      "email": "hi@mrmrs.cc"
-    }
-  ],
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "lightningcss": "^1"
-  },
-  "scripts": {
-    "build": "node build.js"
   }
 }
