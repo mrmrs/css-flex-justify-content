@@ -9,7 +9,7 @@
 .jc-sa {  justify-content: space-around; }
 .jc-i {   justify-content: inherit; }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 32em) {
   .jc-fs-s {  justify-content: flex-start; }
   .jc-f3-s {  justify-content: flex-end; }
   .jc-c-s {   justify-content: center; }
@@ -18,7 +18,7 @@
   .jc-i-s {   justify-content: inherit; }
 }
 
-@media screen and (min-width:48em) and (max-width: 64em) {
+@media screen and (min-width:48em) {
   .jc-fs-m {  justify-content: flex-start; }
   .jc-f3-m {  justify-content: flex-end; }
   .jc-c-m {   justify-content: center; }
@@ -27,7 +27,7 @@
   .jc-i-m {   justify-content: inherit; }
 }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 96em) {
   .jc-fs-l {  justify-content: flex-start; }
   .jc-f3-l {  justify-content: flex-end; }
   .jc-c-l {   justify-content: center; }
