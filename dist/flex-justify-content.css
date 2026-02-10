@@ -1,101 +1,101 @@
-.jc-fs {
+.justify-content-start {
   justify-content: flex-start;
 }
 
-.jc-f3 {
+.justify-content-end {
   justify-content: flex-end;
 }
 
-.jc-c {
+.justify-content-center {
   justify-content: center;
 }
 
-.jc-sb {
+.justify-content-between {
   justify-content: space-between;
 }
 
-.jc-sa {
+.justify-content-around {
   justify-content: space-around;
 }
 
-.jc-i {
+.justify-content-inherit {
   justify-content: inherit;
 }
 
 @media screen and (width >= 32em) {
-  .jc-fs-s {
+  .justify-content-start-s {
     justify-content: flex-start;
   }
 
-  .jc-f3-s {
+  .justify-content-end-s {
     justify-content: flex-end;
   }
 
-  .jc-c-s {
+  .justify-content-center-s {
     justify-content: center;
   }
 
-  .jc-sb-s {
+  .justify-content-between-s {
     justify-content: space-between;
   }
 
-  .jc-sa-s {
+  .justify-content-around-s {
     justify-content: space-around;
   }
 
-  .jc-i-s {
+  .justify-content-inherit-s {
     justify-content: inherit;
   }
 }
 
 @media screen and (width >= 48em) {
-  .jc-fs-m {
+  .justify-content-start-m {
     justify-content: flex-start;
   }
 
-  .jc-f3-m {
+  .justify-content-end-m {
     justify-content: flex-end;
   }
 
-  .jc-c-m {
+  .justify-content-center-m {
     justify-content: center;
   }
 
-  .jc-sb-m {
+  .justify-content-between-m {
     justify-content: space-between;
   }
 
-  .jc-sa-m {
+  .justify-content-around-m {
     justify-content: space-around;
   }
 
-  .jc-i-m {
+  .justify-content-inherit-m {
     justify-content: inherit;
   }
 }
 
 @media screen and (width >= 96em) {
-  .jc-fs-l {
+  .justify-content-start-l {
     justify-content: flex-start;
   }
 
-  .jc-f3-l {
+  .justify-content-end-l {
     justify-content: flex-end;
   }
 
-  .jc-c-l {
+  .justify-content-center-l {
     justify-content: center;
   }
 
-  .jc-sb-l {
+  .justify-content-between-l {
     justify-content: space-between;
   }
 
-  .jc-sa-l {
+  .justify-content-around-l {
     justify-content: space-around;
   }
 
-  .jc-i-l {
+  .justify-content-inherit-l {
     justify-content: inherit;
   }
 }
