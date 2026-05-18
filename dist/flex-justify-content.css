@@ -1,101 +1,101 @@
-.justify-content-start {
+.jc-fs {
   justify-content: flex-start;
 }
 
-.justify-content-end {
+.jc-f3 {
   justify-content: flex-end;
 }
 
-.justify-content-center {
+.jc-c {
   justify-content: center;
 }
 
-.justify-content-between {
+.jc-sb {
   justify-content: space-between;
 }
 
-.justify-content-around {
+.jc-sa {
   justify-content: space-around;
 }
 
-.justify-content-inherit {
+.jc-i {
   justify-content: inherit;
 }
 
 @media screen and (width >= 32em) {
-  .justify-content-start-s {
+  .jc-fs-s {
     justify-content: flex-start;
   }
 
-  .justify-content-end-s {
+  .jc-f3-s {
     justify-content: flex-end;
   }
 
-  .justify-content-center-s {
+  .jc-c-s {
     justify-content: center;
   }
 
-  .justify-content-between-s {
+  .jc-sb-s {
     justify-content: space-between;
   }
 
-  .justify-content-around-s {
+  .jc-sa-s {
     justify-content: space-around;
   }
 
-  .justify-content-inherit-s {
+  .jc-i-s {
     justify-content: inherit;
   }
 }
 
 @media screen and (width >= 48em) {
-  .justify-content-start-m {
+  .jc-fs-m {
     justify-content: flex-start;
   }
 
-  .justify-content-end-m {
+  .jc-f3-m {
     justify-content: flex-end;
   }
 
-  .justify-content-center-m {
+  .jc-c-m {
     justify-content: center;
   }
 
-  .justify-content-between-m {
+  .jc-sb-m {
     justify-content: space-between;
   }
 
-  .justify-content-around-m {
+  .jc-sa-m {
     justify-content: space-around;
   }
 
-  .justify-content-inherit-m {
+  .jc-i-m {
     justify-content: inherit;
   }
 }
 
 @media screen and (width >= 96em) {
-  .justify-content-start-l {
+  .jc-fs-l {
     justify-content: flex-start;
   }
 
-  .justify-content-end-l {
+  .jc-f3-l {
     justify-content: flex-end;
   }
 
-  .justify-content-center-l {
+  .jc-c-l {
     justify-content: center;
   }
 
-  .justify-content-between-l {
+  .jc-sb-l {
     justify-content: space-between;
   }
 
-  .justify-content-around-l {
+  .jc-sa-l {
     justify-content: space-around;
   }
 
-  .justify-content-inherit-l {
+  .jc-i-l {
     justify-content: inherit;
   }
 }

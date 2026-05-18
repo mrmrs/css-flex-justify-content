@@ -6,8 +6,8 @@ Functional CSS for flex-justify-content
 
 | File | Size |
 |------|------|
-| `dist/flex-justify-content.css` | 1673 bytes |
-| `dist/flex-justify-content.min.css` | 1335 bytes (226 Gzipped) |
+| `dist/flex-justify-content.css` | 1265 bytes |
+| `dist/flex-justify-content.min.css` | 927 bytes (213 Gzipped) |
 
 ## Install
 
@@ -39,30 +39,30 @@ npm install css-flex-justify-content
 
 | Class   | Value                    |
 |---------|--------------------------|
-| `.justify-content-start` | `justify-content: flex-start;` |
-| `.justify-content-end` | `justify-content: flex-end;` |
-| `.justify-content-center` | `justify-content: center;` |
-| `.justify-content-between` | `justify-content: space-between;` |
-| `.justify-content-around` | `justify-content: space-around;` |
-| `.justify-content-inherit` | `justify-content: inherit;` |
-| `.justify-content-start-s` | `justify-content: flex-start;` |
-| `.justify-content-end-s` | `justify-content: flex-end;` |
-| `.justify-content-center-s` | `justify-content: center;` |
-| `.justify-content-between-s` | `justify-content: space-between;` |
-| `.justify-content-around-s` | `justify-content: space-around;` |
-| `.justify-content-inherit-s` | `justify-content: inherit;` |
-| `.justify-content-start-m` | `justify-content: flex-start;` |
-| `.justify-content-end-m` | `justify-content: flex-end;` |
-| `.justify-content-center-m` | `justify-content: center;` |
-| `.justify-content-between-m` | `justify-content: space-between;` |
-| `.justify-content-around-m` | `justify-content: space-around;` |
-| `.justify-content-inherit-m` | `justify-content: inherit;` |
-| `.justify-content-start-l` | `justify-content: flex-start;` |
-| `.justify-content-end-l` | `justify-content: flex-end;` |
-| `.justify-content-center-l` | `justify-content: center;` |
-| `.justify-content-between-l` | `justify-content: space-between;` |
-| `.justify-content-around-l` | `justify-content: space-around;` |
-| `.justify-content-inherit-l` | `justify-content: inherit;` |
+| `.jc-fs` | `justify-content: flex-start;` |
+| `.jc-f3` | `justify-content: flex-end;` |
+| `.jc-c` | `justify-content: center;` |
+| `.jc-sb` | `justify-content: space-between;` |
+| `.jc-sa` | `justify-content: space-around;` |
+| `.jc-i` | `justify-content: inherit;` |
+| `.jc-fs-s` | `justify-content: flex-start;` |
+| `.jc-f3-s` | `justify-content: flex-end;` |
+| `.jc-c-s` | `justify-content: center;` |
+| `.jc-sb-s` | `justify-content: space-between;` |
+| `.jc-sa-s` | `justify-content: space-around;` |
+| `.jc-i-s` | `justify-content: inherit;` |
+| `.jc-fs-m` | `justify-content: flex-start;` |
+| `.jc-f3-m` | `justify-content: flex-end;` |
+| `.jc-c-m` | `justify-content: center;` |
+| `.jc-sb-m` | `justify-content: space-between;` |
+| `.jc-sa-m` | `justify-content: space-around;` |
+| `.jc-i-m` | `justify-content: inherit;` |
+| `.jc-fs-l` | `justify-content: flex-start;` |
+| `.jc-f3-l` | `justify-content: flex-end;` |
+| `.jc-c-l` | `justify-content: center;` |
+| `.jc-sb-l` | `justify-content: space-between;` |
+| `.jc-sa-l` | `justify-content: space-around;` |
+| `.jc-i-l` | `justify-content: inherit;` |
 
 ### Responsive
 
@@ -74,7 +74,7 @@ Responsive variants are available for each class with the following suffixes:
 | `-m`   | `min-width: 48em`        |
 | `-l`   | `min-width: 96em`        |
 
-Example: `.justify-content-start-m` applies the property at the medium breakpoint and above.
+Example: `.jc-fs-m` applies the property at the medium breakpoint and above.
 
 ## Building
 
